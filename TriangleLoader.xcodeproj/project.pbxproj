@@ -11,6 +11,7 @@
 		E47CD1CC2B33127B002ABBD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47CD1CB2B33127B002ABBD4 /* ContentView.swift */; };
 		E47CD1CE2B33127C002ABBD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47CD1CD2B33127C002ABBD4 /* Assets.xcassets */; };
 		E47CD1D12B33127C002ABBD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47CD1D02B33127C002ABBD4 /* Preview Assets.xcassets */; };
+		E47CD1D82B331372002ABBD4 /* TriangleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47CD1D72B331372002ABBD4 /* TriangleLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E47CD1CB2B33127B002ABBD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E47CD1CD2B33127C002ABBD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E47CD1D02B33127C002ABBD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E47CD1D72B331372002ABBD4 /* TriangleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				E47CD1CB2B33127B002ABBD4 /* ContentView.swift */,
 				E47CD1CD2B33127C002ABBD4 /* Assets.xcassets */,
 				E47CD1CF2B33127C002ABBD4 /* Preview Content */,
+				E47CD1D72B331372002ABBD4 /* TriangleLoader.swift */,
 			);
 			path = TriangleLoader;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E47CD1CC2B33127B002ABBD4 /* ContentView.swift in Sources */,
+				E47CD1D82B331372002ABBD4 /* TriangleLoader.swift in Sources */,
 				E47CD1CA2B33127B002ABBD4 /* TriangleLoaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
