@@ -1,6 +1,6 @@
 //  /*
 //
-//  Project: TriangleLoader
+//  Project: TriangleView
 //  File: ContentView.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 20.12.2023
@@ -42,7 +42,7 @@ enum TriangleState {
     }
 }
 
-struct ContentView: View {
+struct TriangleView: View {
     @State var strokeStart: CGFloat = 0
     @State var strokeEnd: CGFloat = 0
     @State var circleOffset: CGSize = CGSize(width: 0, height: 0)
@@ -72,7 +72,7 @@ struct ContentView: View {
             getStroke(state: .begin)
             setCircleOffset(state: .begin)
             animate()
-            Timer.scheduledTimer(withTimeInterval: animationDuration * 4.5, repeats: true) {_ in 
+            Timer.scheduledTimer(withTimeInterval: animationDuration * 4.5, repeats: true) {_ in
                 animate()
             }
         }
@@ -122,5 +122,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    TriangleView()
 }

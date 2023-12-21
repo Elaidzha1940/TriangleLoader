@@ -13,7 +13,7 @@ import SwiftUI
 struct TriangleLoaderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TriangleView()
         }
     }
 }
