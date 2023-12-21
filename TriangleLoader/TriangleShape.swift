@@ -1,7 +1,7 @@
 //  /*
 //
-//  Project: TriangleLoader
-//  File: TriangleLoader.swift
+//  Project: TriangleShape
+//  File: TriangleShape.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 20.12.2023
 //
